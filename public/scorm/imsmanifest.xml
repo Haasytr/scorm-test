@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-42A9561A-9D85-D534-8CB6-640256BAEB7A" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<organizations default="LEC001_21_html_COURSE">
+		<organization identifier="LEC001_21_html_COURSE" structure="hierarchical">
+		<title>Curso em Ética Corporativa </title>
+			<item identifier="LEC001_21_html_M01L01" identifierref="LEC001_21_html_M01L01_RSC" isvisible="true">
+				<title>Curso em Ética Corporativa </title>
+			</item>
+
+			<item identifier="LEC001_21_html_M01L02" identifierref="LEC001_21_html_M01L02_RSC" isvisible="true">
+				<title>Avaliação</title>
+				 <adlcp:prerequisites type="aicc_script">LEC001_21_html_M01L01</adlcp:prerequisites>
+                <adlcp:masteryscore>70</adlcp:masteryscore>
+			</item>
+
+
+		</organization>
+	</organizations>
+
+
+
+
+
+	<resources>
+		<resource identifier="LEC001_21_html_M01L01_RSC" type="webcontent" adlcp:scormtype="sco" href="html-onepage/index.html">
+			<file href="html-onepage/index_scorm.html" />
+		</resource>	
+
+		<resource identifier="LEC001_21_html_M01L02_RSC" type="webcontent" adlcp:scormtype="sco" href="html-onepage/html-Quiz/index_scorm.html">
+			<file href="html-QUIZ/index_scorm.html" />
+		</resource>	
+
+
+
+	</resources>
+</manifest>
