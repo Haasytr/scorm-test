@@ -37,7 +37,7 @@ const ScormPlayer = ({
         }
 
         // Set student information
-        api.LMSSetValue('cmi.core.student_name', 'Student');
+        // api.LMSSetValue('cmi.core.student_name', 'Student');
 
         // Add event listeners
         api.on('LMSSetValue.cmi.core.lesson_status', (element, value) => {
@@ -116,8 +116,8 @@ const ScormPlayer = ({
   return (
     <div className="scorm-player w-full h-full flex flex-col">
       <div className="flex-grow">
-        <iframe 
-          src={"scorm/html-onepage/index.html"}
+      <iframe 
+          src={"scorm/html-onepage/html-Quiz/index_scorm.html"}
           className="w-full h-full border-none"
           title="SCORM Content"
           style={{ width: '100vw', height: '70vh' }}
